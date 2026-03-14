@@ -1,4 +1,3 @@
-<script>
 if (typeof Html5QrcodeScanner === 'undefined') {
     const script = document.createElement('script');
     script.src = "https://unpkg.com/html5-qrcode";
@@ -92,4 +91,3 @@ function closeScanner() {
         modal.style.display = 'none';
     }
 }
-</script>
